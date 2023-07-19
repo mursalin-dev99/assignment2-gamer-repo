@@ -44,6 +44,9 @@ img {
 /*============================================
         all typography css part ends here
 ==============================================*/
+/*============================================
+        navbar css part start here
+==============================================*/
 #navbar_part {
   width: 100%;
   background: #fff;
@@ -56,6 +59,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#navbar_part .nav_body .container .nav_main .nav_icon ul {
+  padding-left: 0;
 }
 #navbar_part .nav_body .container .nav_main .nav_icon ul li {
   display: inline-block;
@@ -74,6 +80,9 @@ img {
 }
 #navbar_part .nav_body .container .nav_main .nav_icon ul li a span {
   color: #FF42A5;
+}
+#navbar_part .nav_body .container .nav_main .nav_item ul {
+  cursor: pointer;
 }
 #navbar_part .nav_body .container .nav_main .nav_item ul li {
   display: inline-block;
@@ -100,4 +109,90 @@ img {
   background: rgba(11, 2, 35, 0.1647058824);
   border-color: rgba(11, 2, 35, 0.1647058824);
   transition: 0.5s;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*============================================
+        navbar css part ends here
+==============================================*/
+/*============================================
+        banner css part start here
+==============================================*/
+#banner_part {
+  width: 100%;
+}
+#banner_part .banner_body {
+  background-image: url(../images/Group14.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#banner_part .banner_body .container {
+  margin: 0 300px;
+}
+#banner_part .banner_body .container .banner_main {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner_part .banner_body .container .banner_main .banner_text h3 {
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+}
+#banner_part .banner_body .container .banner_main .banner_text h1 {
+  background: #8758F1;
+  background: linear-gradient(to top, #8758F1 0%, #F948B2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 95px;
+  font-weight: 800;
+  font-family: "Work Sans", sans-serif;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list ul {
+  padding-left: 0;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list ul li {
+  padding-bottom: 10px;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list ul li a {
+  text-decoration: none;
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list ul li a i {
+  padding-right: 10px;
+  color: #FF42A5;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list .banner_btn a {
+  text-decoration: none;
+  background: #F948B2;
+  border-radius: 30px;
+  border: 1px solid #F948B2;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list .banner_btn a:hover {
+  border-color: #4EC5F7;
+  transition: 0.5s;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list .banner_btn .btn_2 {
+  background: #4EC5F7;
+  border-color: #4EC5F7;
+}
+#banner_part .banner_body .container .banner_main .banner_text .banner_list .banner_btn .btn_2:hover {
+  border-color: #F948B2;
+  transition: 0.5s;
+}
+
+/*============================================
+        banner css part ends here
+==============================================*//*# sourceMappingURL=style.css.map */

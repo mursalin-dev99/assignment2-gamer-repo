@@ -1,0 +1,88 @@
+/*============================================
+        banner css part start here
+==============================================*/
+#banner_part{
+    width: 100%;
+    .banner_body{
+        background-image: url(../images/Group14.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        .container{
+            margin: 0 300px;
+            .banner_main{
+                height: 100vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .banner_text{
+                    h3{
+                        color: #0B0223;
+                        font-size: 48px;
+                        font-weight: 600;
+                        font-family: 'Work Sans', sans-serif;
+                        text-transform: uppercase;
+                    }
+                    h1{
+                        background: #8758F1;
+                        background: linear-gradient(to top, #8758F1 0%, #F948B2 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-size: 95px;
+                        font-weight: 800;
+                        font-family: 'Work Sans', sans-serif;
+                    }
+                    .banner_list{
+                        ul{
+                            padding-left: 0;
+                            li{
+                                padding-bottom: 10px;
+                                a{
+                                    text-decoration: none;
+                                    color: #534C64;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    font-family: 'Work Sans', sans-serif;
+
+                                    i{
+                                        padding-right: 10px;
+                                        color: #FF42A5;
+                                    }
+                                }
+                            }
+                        }
+                        .banner_btn{
+                            a{
+                                text-decoration: none;
+                                background: #F948B2;
+                                border-radius: 30px;
+                                border: 1px solid #F948B2;
+                                font-family: 'Work Sans', sans-serif;
+                                font-size: 18px;
+                                font-weight: 500;
+                                color: #fff;
+                                padding: 10px 20px;
+                                text-transform: uppercase;
+                                margin-right: 20px;
+                                &:hover{
+                                    border-color: #4EC5F7;
+                                    transition: .5s;
+                                }
+                            }
+                            .btn_2{
+                                background: #4EC5F7;
+                                border-color: #4EC5F7;
+                                &:hover{
+                                    border-color: #F948B2;
+                                    transition: .5s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        banner css part ends here
+==============================================*/
