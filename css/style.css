@@ -129,7 +129,6 @@ img {
   margin: 0 300px;
 }
 #banner_part .banner_body .container .banner_main {
-  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -195,4 +194,76 @@ img {
 
 /*============================================
         banner css part ends here
+==============================================*/
+/*============================================
+        gamer css part start here
+==============================================*/
+#gamer_part {
+  width: 100%;
+  background: rgba(255, 66, 164, 0.0745098039);
+}
+#gamer_part .gamer_body .container {
+  margin: 0 300px;
+}
+#gamer_part .gamer_body .container .gamer_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_image {
+  text-align: left;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_image img {
+  width: 100%;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_text {
+  text-align: right;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_text h2 {
+  font-size: 48px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  background: #8758F1;
+  background: linear-gradient(to top, #8758F1 0%, #F948B2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_text p {
+  width: 420px;
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  padding: 15px 0;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_text .gamer_btn a {
+  text-decoration: none;
+  border: 1px solid #F948B2;
+  border-radius: 30px;
+  background: #F948B2;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_text .purpose {
+  padding-top: 15px;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_text .purpose h4 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  color: #534C64;
+}
+#gamer_part .gamer_body .container .gamer_main .gamer_text .purpose h3 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  color: #534C64;
+}
+
+/*============================================
+        gamer css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
