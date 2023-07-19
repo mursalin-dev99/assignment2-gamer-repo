@@ -1,0 +1,46 @@
+/*============================================
+        common css part start here
+==============================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  max-width: 1220px;
+}
+
+/*============================================
+        common css part ends here
+==============================================*/
+/*============================================
+        all typography css part start here
+==============================================*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/*============================================
+        all typography css part ends here
+==============================================*//*# sourceMappingURL=style.css.map */
