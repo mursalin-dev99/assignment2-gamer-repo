@@ -266,4 +266,98 @@ img {
 
 /*============================================
         gamer css part ends here
+==============================================*/
+/*============================================
+        online css part start here
+==============================================*/
+#online_games {
+  width: 100%;
+}
+#online_games .online_body .container {
+  margin: 80px 300px;
+}
+#online_games .online_body .container .online_main .online_head {
+  text-align: center;
+}
+#online_games .online_body .container .online_main .online_head h3 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  text-transform: capitalize;
+  color: #0B0223;
+}
+#online_games .online_body .container .online_main .online_head h3 span {
+  background: #8758F1;
+  background: linear-gradient(to top, #8758F1 0%, #F948B2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#online_games .online_body .container .online_main .online_head p {
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+#online_games .online_body .container .online_main .online_card {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+#online_games .online_body .container .online_main .online_card .card_body {
+  width: 23%;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_image {
+  position: relative;
+  width: 100%;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_image img {
+  width: 100%;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_overlay {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.4431372549);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_overlay .overlay_item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_overlay .overlay_item .overlay_icon a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_overlay .overlay_item .overlay_text a {
+  text-decoration: none;
+  color: #F948B2;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_text {
+  text-align: center;
+}
+#online_games .online_body .container .online_main .online_card .card_body .card_text p {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1rem;
+}
+#online_games .online_body .container .online_main .online_card .card_body:hover .card_overlay {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/*============================================
+        online css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
