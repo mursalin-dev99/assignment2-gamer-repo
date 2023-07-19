@@ -462,4 +462,47 @@ img {
 
 /*============================================
         play game css part ends here
+==============================================*/
+/*============================================
+        careers css part start here
+==============================================*/
+/*============================================
+        careers css part ends here
+==============================================*/
+/*============================================
+        item css part start here
+==============================================*/
+#item_part {
+  width: 100%;
+}
+#item_part .item_body .container {
+  margin: 0 300px;
+}
+#item_part .item_body .container .item_main .item1 {
+  text-align: center;
+}
+#item_part .item_body .container .item_main .item1 ul li {
+  display: inline-block;
+}
+#item_part .item_body .container .item_main .item1 ul li a {
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  color: #0B0223;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  text-transform: capitalize;
+}
+#item_part .item_body .container .item_main .item1 ul li a img {
+  padding-right: 20px;
+}
+#item_part .item_body .container .item_main .item1 ul li a:hover {
+  color: #FF42A5;
+  border-color: #FF42A5;
+}
+
+/*============================================
+        item css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
